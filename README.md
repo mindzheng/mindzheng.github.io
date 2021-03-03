@@ -30,4 +30,4 @@
 
 ```
 [跳转试试](tiaozhuan.md)
-![image-20210303100158614](README.assets/image-20210303100158614.png)
+![1234](README.assets/image-20210303100158614.png)
