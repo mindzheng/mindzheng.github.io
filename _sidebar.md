@@ -1,4 +1,4 @@
 * [**首页** ](README.md)
 
-* [**JavaScript**](js.md)
+* [**JavaScript**](javaScriptNotes.md)
 
