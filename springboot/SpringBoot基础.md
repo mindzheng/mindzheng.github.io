@@ -16,8 +16,10 @@ Spring Boot 会自动根据 spring-boot-starter-parent 的版本选择依赖的�
 ```
 # 自动配置
 ## @Configuration 和 @Component的区别
-@Configuration    单例
+@Configuration    单例  
+
 @Component       多例
+
 ## @SpringBootApplication
 ```java
 @SpringBootApplication
@@ -26,8 +28,10 @@ Spring Boot 会自动根据 spring-boot-starter-parent 的版本选择依赖的�
 @EnableAutoConfiguration
 @ComponentScan
 ```
-程序启动后默认的组件扫描范围是 **启动类所在包及子包** 
+程序启动后默认的组件扫描范围是 **启动类所在包及子包**   
+
 如果要扫描其他地方的组件
+
 ```java
 // 单个位置
 @SpringBootApplication(scanBasePackages = "com.xxx")
@@ -44,7 +48,8 @@ Spring Boot 会自动根据 spring-boot-starter-parent 的版本选择依赖的�
 @ComponentScan({"com.xxx", "com.xxx"})
 ```
 ## @Configuration
-> Full Lite
+> Full Lite  
+>
 > 该类本身也是一个组件
 
 定义配置类, 该类中的组件默认都是单例模式
@@ -80,7 +85,8 @@ public User user1() {
 ```
 ### @Conditional
 
-**与组件注册注解一同使用** 
+**与组件注册注解一同使用**   
+
 当该注解为true时, 才会注册组件, 否则不注册 
 
 ![image.png](SpringBoot基础.assets/1613913925036-28a4e6e1-f7e3-4056-b6e9-f59a68a48bb1.png)
@@ -95,7 +101,8 @@ public class Config {
 ```
 ## @ConfigurationProperties
 
-配置绑定注解
+配置绑定注解  
+
 用于绑定 application 文件中的属性(yml与properties用法一致)
 
 ```java
