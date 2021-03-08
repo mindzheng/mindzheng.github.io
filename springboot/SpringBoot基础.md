@@ -81,9 +81,9 @@ public User user1() {
 ### @Conditional
 
 **与组件注册注解一同使用** 
-当该注解为true时, 才会注册组件, 否则不注册
+当该注解为true时, 才会注册组件, 否则不注册 
 
-**![image.png](SpringBoot基础.assets/1613913925036-28a4e6e1-f7e3-4056-b6e9-f59a68a48bb1.png)**
+![image.png](SpringBoot基础.assets/1613913925036-28a4e6e1-f7e3-4056-b6e9-f59a68a48bb1.png)
 
 ```java
 // 当组件 user01 存在时, Config才会被注册为组件
@@ -94,8 +94,10 @@ public class Config {
 }
 ```
 ## @ConfigurationProperties
+
 配置绑定注解
 用于绑定 application 文件中的属性(yml与properties用法一致)
+
 ```java
 @Component
 @ConfigurationProperties(prefix = "xxx.xx")
