@@ -60,9 +60,12 @@ public void test() throws ExecutionException, InterruptedException {
 ```
 > 可以直接在线程池中使用
 
-![image.png](Java 基础.assets/1615122167908-ba9997f1-cb6e-4d09-9db5-258dc918ed09.png)
+![image.png](Java基础.assets/1615122167908-ba9997f1-cb6e-4d09-9db5-258dc918ed09.png)
+
 ### 线程锁
+
 #### 重入锁
+
 > ReentrantLock
 
 ```java

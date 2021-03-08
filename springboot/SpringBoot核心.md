@@ -34,6 +34,7 @@ public Map<String, Object> test(@PathVariable("carId") String id, @PathVariable 
 ### @RequestHeader
 
 获取请求头信息, 可以单个获取或将所有参数放入Map中(只能是Map<String, String>), 可以同时使用
+
 ![image.png](SpringBoot核心.assets/1614406876651-cc35630f-62d9-44f3-8b8a-836af2e51b40.png)
 
 ```java
