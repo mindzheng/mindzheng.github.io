@@ -215,7 +215,7 @@ excution
 - **方法名**
 - 异常
 
-![image-20210501220813079](C:\workspace\mindzheng.github.io\springboot\SpringBoot核心.assets\image-20210501220813079.png)
+![20210501220813079](SpringBoot核心.assets/20210501220813079.png)
 
 ### @Before
 
