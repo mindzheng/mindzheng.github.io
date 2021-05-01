@@ -177,6 +177,7 @@ public void testAfterThrowing(JoinPoint joinPoint, Throwable e) {
 
 ```java
 @Aspect
+@Component
 public class TestAspect {
 
 }
